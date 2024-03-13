@@ -3,6 +3,9 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-16.04'
+  
+variables:
+  buildConfiguration: 'Release'
 
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
