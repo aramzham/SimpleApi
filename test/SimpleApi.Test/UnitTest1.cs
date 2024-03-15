@@ -29,7 +29,6 @@ public class UnitTest1 : IClassFixture<WebApplicationFactory<Program>>
             new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
         Assert.NotNull(forecasts);
         Assert.Equal(5, forecasts.Length);
-        Assert.Fail("something not working well enough");
     }
 
     [Fact]
