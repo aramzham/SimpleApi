@@ -17,7 +17,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 string[] summaries =
-    ["Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Rainy"];
+    ["Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Rainy", "Sunny"];
 
 app.MapGet("/weatherforecast", () =>
     {
